@@ -1,0 +1,41 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    android:layout_gravity="end"
+
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentEnd="true"
+
+    android:layout_marginBottom="@dimen/lmb_logos">
+
+    <Button
+        android:id="@+id/logo_amp"
+        android:onClick="btnAMP"
+        android:background="@drawable/logo_texto_amp_vector"
+
+        android:layout_width="@dimen/lw_logo_amp"
+        android:layout_height="@dimen/lh_logo_amp"
+
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="@dimen/lmr_logos"
+
+        style="?android:borderlessButtonStyle" />
+
+    <Button
+        android:id="@+id/logo_farmacia"
+        android:onClick="btnFarmacia"
+        android:background="@drawable/logo_farmacia"
+
+        android:layout_width="@dimen/lw_logo_farmacia"
+        android:layout_height="@dimen/lh_logo_farmacia"
+
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/lmr_logos"
+
+        style="?android:borderlessButtonStyle" />
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/sin_fondo_02"
+    tools:context="com.amp.directory.Demo2$PlaceholderFragment">
+
+    <include
+        layout="@layout/toolbar" />
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/lmt_toolbar">
+
+        <!-- El contenido va aquí. -->
+        <TextView
+            android:id="@+id/section_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <include
+            layout="@layout/triangulo" />
+
+        <include
+            layout="@layout/logos" />
+
+    </RelativeLayout>
+</RelativeLayout>

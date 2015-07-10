@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_refresh">Actualizar</string>
+    <string name="action_search">Buscar</string>
+    <string name="action_settings">Preferencias</string>
+    <string name="txt_saludo">¡Hola mundo!</string>
+    <string name="txt_verde">Consejos Nutricionales</string>
+    <string name="txt_azul">Reportajes</string>
+    <string name="txt_rojo">Cine &amp; TV</string>
+    <string name="txt_violeta">Entrevistas</string>
+    <string name="app_name">Directorio Médico</string>
+    <string name="action_menu">Menú</string>
+    <string name="respAzul">Has presionado el botón \"Azul\"</string>
+    <string name="respRojo">Has presionado el botón \"rojo\"</string>
+    <string name="respVerde">Has presionado el botón \"Verde\"</string>
+    <string name="respVioleta">Has presionado el botón \"Violeta\"</string>
+    <string name="respAMP">Has presionado el botón \"AMP\"</string>
+    <string name="respFarmacia">Has presionado el botón \"Farmacias del Ahorro\"</string>
+    <string name="respAmigo">Has presionado el botón \"Amigo\"</string>
+    <string name="respTriangulo">Has presionado el botón \"Triangulo\"</string>
+    <string name="respHome">Has presionado el botón \"Home\"</string>
+    <string name="respCorazon">Has presionado el botón \"Corazón\"</string>
+    <string name="respDescubrelo">Has presionado el botón \"Descubrelo\"</string>
+    <string name="respEspecialidades">Has presionado el botón \"Especialidades\"</string>
+    <string name="respSalida">Pulse \"Atrás\" otra vez para salir</string>
+    <string name="txt_search">Buscar</string>
+    <string name="respBack">Has presionado el botón \"Atrás\"</string>
+</resources>

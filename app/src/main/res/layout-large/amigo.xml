@@ -1,0 +1,25 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentEnd="true"
+
+    android:layout_marginTop="@dimen/lmt_amigo"
+    android:layout_marginLeft="@dimen/lml_amigo"
+    android:layout_marginStart="@dimen/lml_amigo" >
+
+    <Button
+        android:id="@+id/img_amigo"
+        android:background="@drawable/amigo"
+
+        android:layout_width="@dimen/lw_amigo"
+        android:layout_height="@dimen/lh_amigo"
+
+        style="?android:borderlessButtonStyle" />
+</RelativeLayout>

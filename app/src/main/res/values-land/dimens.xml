@@ -1,0 +1,101 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="spacing_xsmall">2dp</dimen>
+    <dimen name="spacing_medium">8dp</dimen>
+    <dimen name="spacing_large">16dp</dimen>
+    <dimen name="spacing_xlarge">32dp</dimen>
+
+    <dimen name="elevation_low">9dp</dimen>
+    <dimen name="elevation_high">12dp</dimen>
+    <dimen name="status_bar_height">25dp</dimen>
+    <dimen name="fab_compat_margin">0dp</dimen>
+
+    <!-- Barra de herramientas -->
+    <dimen name="lmt_toolbar">40dp</dimen>
+
+    <!-- Margenes y medidas de listones -->
+    <dimen name="ts_listones">30sp</dimen>
+
+    <dimen name="pl_listones">16dp</dimen>
+    <dimen name="pr_listones">20dp</dimen>
+
+    <dimen name="lw_listones">220dp</dimen>
+    <dimen name="lh_listones">78dp</dimen>
+
+    <dimen name="lml_layout_listones">0dp</dimen>
+    <dimen name="lmb_layout_listones">10dp</dimen>
+    <dimen name="lmb_listones">8sp</dimen>
+
+    <!-- Margenes y medidas de logos -->
+    <dimen name="lmr_logos">38dp</dimen>
+    <dimen name="lme_logos">16dp</dimen>
+    <dimen name="lmb_logos">16dp</dimen>
+
+    <dimen name="lmb_logoA">14dp</dimen>
+    <dimen name="lmb_logoB">70dp</dimen>
+
+    <dimen name="lw_logo_amp">174dp</dimen>
+    <dimen name="lh_logo_amp">80dp</dimen>
+
+    <dimen name="lw_logo_farmacia">153dp</dimen>
+    <dimen name="lh_logo_farmacia">80dp</dimen>
+
+    <!-- Margenes de botón flotante -->
+    <dimen name="lmr_flotante">16dp</dimen>
+    <dimen name="lme_flotante">16dp</dimen>
+    <dimen name="lmb_flotante">16dp</dimen>
+
+    <!-- Margenes de texto mejor amigo del hombre -->
+    <dimen name="lmt_amigo">20dp</dimen>
+
+    <dimen name="lw_amigo">192dp</dimen>
+    <dimen name="lh_amigo">100dp</dimen>
+
+    <dimen name="lml_amigo">24dp</dimen>
+
+    <!-- Margenes de texto 63 especialidades -->
+    <dimen name="lmt_especialidades">150dp</dimen>
+
+    <dimen name="lw_especialidades">195dp</dimen>
+    <dimen name="lh_especialidades">104dp</dimen>
+
+    <dimen name="lml_especialidades">24dp</dimen>
+
+    <!-- Margenes de texto corazón -->
+    <dimen name="lmt_corazon">140dp</dimen>
+
+    <dimen name="lw_corazon">172dp</dimen>
+    <dimen name="lh_corazon">120dp</dimen>
+
+    <dimen name="lmr_corazon">36dp</dimen>
+
+    <!-- Margenes de texto descubrelo -->
+    <dimen name="lmt_descubrelo">267dp</dimen>
+
+    <dimen name="lw_descubrelo">164dp</dimen>
+    <dimen name="lh_descubrelo">120dp</dimen>
+
+    <dimen name="lmr_descubrelo">36dp</dimen>
+
+    <!-- Margenes de logo de triangulo -->
+    <dimen name="lmt_triangulo">16dp</dimen>
+
+    <dimen name="lw_triangulo">129dp</dimen>
+    <dimen name="lh_triangulo">110dp</dimen>
+
+    <dimen name="lmr_triangulo">58dp</dimen>
+
+    <!-- Margenes de splash -->
+    <dimen name="lw_splash">320dp</dimen>
+    <dimen name="lh_splash">154dp</dimen>
+
+    <!-- Margenes de titilo -->
+    <dimen name="lmt_titulo">28dp</dimen>
+
+    <dimen name="lw_titulo">617dp</dimen>
+    <dimen name="lh_titulo">150dp</dimen>
+
+</resources>

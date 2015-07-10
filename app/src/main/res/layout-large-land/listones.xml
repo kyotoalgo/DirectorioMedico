@@ -1,0 +1,96 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    android:layout_gravity="start"
+
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentEnd="true"
+
+    android:layout_marginLeft="@dimen/lml_layout_listones"
+    android:layout_marginTop="@dimen/lmt_layout_listones" >
+
+    <Button
+        android:id="@+id/btn_verde"
+        android:background="@drawable/ls_verde_vector"
+        android:text="@string/txt_verde"
+
+        android:gravity="fill_vertical"
+        android:textSize="@dimen/ts_listones"
+
+        android:paddingLeft="@dimen/pl_listones"
+        android:paddingRight="@dimen/pr_listones"
+
+        android:layout_width="@dimen/lw_listones"
+        android:layout_height="@dimen/lh_listones"
+
+        android:layout_marginBottom="@dimen/lmb_listones"
+
+        android:onClick="btnVerde"
+
+        style="?android:borderlessButtonStyle" />
+
+    <Button
+        android:id="@+id/btn_azul"
+        android:background="@drawable/ls_azul_vector"
+        android:text="@string/txt_azul"
+
+        android:gravity="fill_vertical"
+        android:textSize="@dimen/ts_listones"
+
+        android:paddingLeft="@dimen/pl_listones"
+        android:paddingRight="@dimen/pr_listones"
+
+        android:layout_width="@dimen/lw_listones"
+        android:layout_height="@dimen/lh_listones"
+
+        android:layout_marginBottom="@dimen/lmb_listones"
+
+        android:onClick="btnAzul"
+
+        style="?android:borderlessButtonStyle" />
+
+    <Button
+        android:id="@+id/btn_violeta"
+        android:background="@drawable/ls_violeta_vector"
+        android:text="@string/txt_violeta"
+
+        android:gravity="fill_vertical"
+        android:textSize="@dimen/ts_listones"
+
+        android:paddingLeft="@dimen/pl_listones"
+        android:paddingRight="@dimen/pr_listones"
+
+        android:layout_width="@dimen/lw_listones"
+        android:layout_height="@dimen/lh_listones"
+
+        android:layout_marginBottom="@dimen/lmb_listones"
+
+
+        android:onClick="btnVioleta"
+
+        style="?android:borderlessButtonStyle" />
+
+    <Button
+        android:id="@+id/btn_rojo"
+        android:onClick="btnRojo"
+        android:background="@drawable/ls_rojo_vector"
+        android:text="@string/txt_rojo"
+
+        android:gravity="fill_vertical"
+        android:textSize="@dimen/ts_listones"
+
+        android:paddingLeft="@dimen/pl_listones"
+        android:paddingRight="@dimen/pr_listones"
+
+        android:layout_width="@dimen/lw_listones"
+        android:layout_height="@dimen/lh_listones"
+
+        android:layout_marginBottom="@dimen/lmb_listones"
+
+        style="?android:borderlessButtonStyle" />
+</LinearLayout>

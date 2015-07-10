@@ -1,0 +1,40 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion "23.0.0 rc2"
+
+    defaultConfig {
+        applicationId "com.amp.directory"
+        minSdkVersion 14
+        targetSdkVersion 22
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+
+    //Librerias standar en el SDK de Android:
+    //Necesario para usar Toolbar y configurar el Tema Material en V14+
+    compile 'com.android.support:appcompat-v7:22.2.0'
+    //Libreria para usar RecyclerView
+    compile 'com.android.support:recyclerview-v7:22.2.0'
+    //Libreria para usar CardView
+    compile 'com.android.support:cardview-v7:22.2.0'
+    //Libreria para usar diseño Material aparente mente retrocompatible
+    compile 'com.android.support:design:22.2.0'
+
+    //Librerias de terceros :
+    //Libreria para agregar un Floating Action Button
+    compile 'com.getbase:floatingactionbutton:1.9.1'
+    //Libreria para volver circular una Imagen
+    compile 'de.hdodenhof:circleimageview:1.3.0'
+}

@@ -1,0 +1,30 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    android:layout_gravity="left"
+
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentStart="true"
+
+    android:layout_marginTop="@dimen/lmt_titulo">
+
+    <ImageView
+        android:id="@+id/img_titulo"
+        android:background="@drawable/titulo_v"
+
+        android:layout_width="@dimen/lw_titulo"
+        android:layout_height="@dimen/lh_titulo"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="@dimen/lml_titulo"
+
+        style="?android:borderlessButtonStyle" />
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    android:layout_gravity="start"
+
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentStart="true"
+
+    android:layout_marginTop="@dimen/lmt_amigo">
+
+    <Button
+        android:id="@+id/logo_amigo"
+        android:onClick="btnAmigo"
+        android:background="@drawable/amigo"
+
+        android:layout_width="@dimen/lw_amigo"
+        android:layout_height="@dimen/lh_amigo"
+
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="@dimen/lml_amigo"
+
+        style="?android:borderlessButtonStyle" />
+</RelativeLayout>

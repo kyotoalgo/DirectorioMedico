@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/negro">
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <!-- El contenido va aquí. -->
+        <ImageView
+            android:id="@+id/img_splash"
+            android:background="@drawable/logo_texto_amp_vector"
+
+            android:layout_width="@dimen/lw_splash"
+            android:layout_height="@dimen/lh_splash" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

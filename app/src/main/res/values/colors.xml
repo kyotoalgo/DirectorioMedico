@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Colores de la paleta. -->
+    <color name="primary">#03A9F4</color>
+    <color name="primary_dark">#0288D1</color>
+    <color name="primary_light">#B3E5FC</color>
+    <color name="accent">#ffff5722</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#727272</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#B6B6B6</color>
+    <!-- Colores fuera de la paleta de colores recomendados. -->
+    <color name="accent_pressed">#ffc54722</color>
+    <color name="blanco">#fff</color>
+    <color name="negro">#000</color>
+
+    <color name="sin_fondo_01">#ff264369</color>
+    <color name="sin_fondo_02">#d5006c1b</color>
+
+    <color name="color_logo_amp">#1a7dbd</color>
+    <color name="arcos_logo_amp">#001c7d</color>
+    <color name="primary_photoshop_png">#01a7f2</color>
+</resources>

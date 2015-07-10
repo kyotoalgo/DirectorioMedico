@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Medical Directory</string>
+
+    <string name="txt_search">Search</string>
+
+    <string name="txt_saludo">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_menu">Menu</string>
+
+    <string name="txt_verde">Nutritional Advice</string>
+    <string name="txt_azul">Reports</string>
+    <string name="txt_violeta">Interviews</string>
+    <string name="txt_rojo">Movies &amp; TV</string>
+
+    <string name="respHome">You have pressed the \"Home\" button</string>
+    <string name="respBack">You have pressed the \"Back\" button</string>
+    <string name="respSalida">Click \"Back\" again to exit</string>
+
+    <string name="respAmigo">You have pressed the \"Amigo\" button</string>
+    <string name="respEspecialidades">You have pressed the \"Especialidades\" button</string>
+    <string name="respCorazon">You have pressed the \"Corazón\" button</string>
+    <string name="respDescubrelo">You have pressed the \"Descubrelo\" button</string>
+
+    <string name="respTriangulo">You have pressed the \"Triangulo\" button</string>
+
+    <string name="respVerde">You have pressed the \"Green\" button</string>
+    <string name="respAzul">You have pressed the \"Blue\" button</string>
+    <string name="respVioleta">You have pressed the \"Purple\" button</string>
+    <string name="respRojo">You have pressed the \"Red\" button</string>
+
+    <string name="respAMP">You have pressed the \"AMP\" button</string>
+    <string name="respFarmacia">You have pressed the \"Farmacias del Ahorro\" button</string>
+
+    <string name="title_activity_demo2">DEMO2</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+</resources>

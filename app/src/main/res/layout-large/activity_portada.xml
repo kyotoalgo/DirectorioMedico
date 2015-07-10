@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_a"
+    tools:context=".MainActivity">
+
+    <include
+        layout="@layout/toolbar" />
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/lmt_toolbar">
+
+        <!-- El contenido va aquí. -->
+
+        <include
+            layout="@layout/triangulo" />
+
+        <include
+            layout="@layout/titulo" />
+
+        <include
+            layout="@layout/amigo" />
+
+        <include
+            layout="@layout/especialidades" />
+
+        <include
+            layout="@layout/corazon" />
+
+        <include
+            layout="@layout/descubrelo" />
+
+        <include
+            layout="@layout/listones" />
+
+        <include
+            layout="@layout/logos" />
+
+        <include
+            layout="@layout/boton_flotante" />
+    </RelativeLayout>
+</RelativeLayout>
